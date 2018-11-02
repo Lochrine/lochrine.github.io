@@ -24,6 +24,7 @@ function setUserName() {
 }
 
 if (!localStorage.getItem('name')) {
+    myHeading.textContent = 'Zombies ate my developer!!';
     setUserName();
 } else {
     var storedName = localStorage.getItem('name');
