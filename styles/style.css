@@ -65,3 +65,7 @@ hr {
 button {
     text-transform: none;
 }
+
+ul {
+    padding: 0;
+}
